@@ -17,7 +17,7 @@ export default async function BoardPage() {
       <div className="flex justify-between items-center mb-8">
         <h1 className="text-3xl font-bold">質問掲示板</h1>
         {user && !isUnder18 && (
-          <button className="px-4 py-2 bg-[var(--color-accent)] text-white rounded-xl font-bold hover:opacity-90 transition-opacity">
+          <button className="px-4 py-2 bg-(--color-accent) text-white rounded-xl font-bold hover:opacity-90 transition-opacity">
             質問を投稿する
           </button>
         )}

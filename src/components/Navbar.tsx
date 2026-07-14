@@ -16,10 +16,10 @@ export default async function Navbar() {
               <span className="font-bold text-lg hidden sm:block">IT Academy</span>
             </Link>
             <div className="hidden md:flex ml-10 space-x-8">
-              <Link href="/courses" className="text-sm font-medium hover:text-[var(--color-accent)] transition-colors">学習する</Link>
-              <Link href="/ide" className="text-sm font-medium hover:text-[var(--color-accent)] transition-colors">Web IDE</Link>
-              <Link href="/rankings" className="text-sm font-medium hover:text-[var(--color-accent)] transition-colors">ランキング</Link>
-              <Link href="/board" className="text-sm font-medium hover:text-[var(--color-accent)] transition-colors">掲示板</Link>
+              <Link href="/courses" className="text-sm font-medium hover:text-(--color-accent) transition-colors">学習する</Link>
+              <Link href="/ide" className="text-sm font-medium hover:text-(--color-accent) transition-colors">Web IDE</Link>
+              <Link href="/rankings" className="text-sm font-medium hover:text-(--color-accent) transition-colors">ランキング</Link>
+              <Link href="/board" className="text-sm font-medium hover:text-(--color-accent) transition-colors">掲示板</Link>
             </div>
           </div>
           <div className="flex items-center gap-4">
@@ -28,7 +28,7 @@ export default async function Navbar() {
                 マイページ
               </Link>
             ) : (
-              <Link href="/login" className="text-sm font-medium px-4 py-2 rounded-xl bg-[var(--color-accent)] text-white hover:opacity-90 transition-opacity">
+              <Link href="/login" className="text-sm font-medium px-4 py-2 rounded-xl bg-(--color-accent) text-white hover:opacity-90 transition-opacity">
                 ログイン / 登録
               </Link>
             )}

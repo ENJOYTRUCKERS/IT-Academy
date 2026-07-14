@@ -38,7 +38,7 @@ export default function IDEClient() {
         </div>
       </div>
 
-      <div className="flex-grow rounded-xl overflow-hidden border border-gray-200 dark:border-gray-700 shadow-sm relative">
+      <div className="grow rounded-xl overflow-hidden border border-gray-200 dark:border-gray-700 shadow-sm relative">
         {mode === 'CODE' ? (
           <Editor
             height="100%"
@@ -61,7 +61,7 @@ export default function IDEClient() {
 
       <div className="mt-4 flex justify-end">
         <button 
-          className="px-6 py-2 bg-[var(--color-accent)] text-white font-bold rounded-xl hover:opacity-90 transition-opacity"
+          className="px-6 py-2 bg-(--color-accent) text-white font-bold rounded-xl hover:opacity-90 transition-opacity"
           onClick={() => alert('実行機能は準備中です！')}
         >
           実行する
