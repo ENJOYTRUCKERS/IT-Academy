@@ -9,10 +9,12 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@monaco-editor/react": "^4.7.0",
     "@serwist/next": "^9.5.11",
     "@serwist/sw": "^9.5.11",
     "@supabase/ssr": "^0.12.1",
     "@supabase/supabase-js": "^2.110.4",
+    "blockly": "^13.1.1",
     "lucide-react": "^1.24.0",
     "next": "16.2.10",
     "react": "19.2.4",
